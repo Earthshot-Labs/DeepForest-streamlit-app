@@ -29,6 +29,10 @@ def multi_ero(im, num):
 
 def post_uploads(stack, image_name):
     print(f'Saving image in content-images: {image_name} -- image shape: {stack.shape}')
+    if not os.path.exists("images/content-images/"):
+        os.makedirs("images/content-images/")
+    if not os.path.exists("images/output-images"):
+        os.makedirs("images/output-images")
     tifffile.imwrite(f"images/content-images/{image_name}", stack)
 
     # To View Uploaded Image
