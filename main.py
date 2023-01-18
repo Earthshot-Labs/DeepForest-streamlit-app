@@ -81,6 +81,15 @@ def post_uploads(stack, image_name):
 st.title('Climate Visualization: Reforestation')
 st.write('By Earthshot Labs')
 
+st.write('')
+st.write('This is a very early Beta Version. Results might not look good for all places and images. ')
+st.write('Try different models if needed. To get satisfying results, please try to have an image of ~500-900 meters of eye altitude.')
+st.write('')
+st.write('First step is to download the models from Google Drive: https://drive.google.com/drive/folders/1utOLx0XGoDVOcNcsoXrl0jPepE-aWC2M?usp=share_link')
+
+
+
+
 # TODO
 # Cleaning folder for faster inference in web app
 # if os.path.exists("images/content-images"):
