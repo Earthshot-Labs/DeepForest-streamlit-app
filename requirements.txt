@@ -3,4 +3,5 @@ torchvision
 tifffile
 pillow
 numpy
+scikit-image
 scikit-learn
