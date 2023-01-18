@@ -1,7 +1,7 @@
 torch
 torchvision
 tifffile
-PIL
+pillow
 glob
 numpy
 scikit-learn
